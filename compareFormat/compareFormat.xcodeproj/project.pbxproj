@@ -15,6 +15,20 @@
 		DC5F558215970D6B0006369D /* DCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F558115970D6B0006369D /* DCFAppDelegate.m */; };
 		DC5F558515970D6B0006369D /* DCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F558415970D6B0006369D /* DCFViewController.m */; };
 		DC5F558815970D6B0006369D /* DCFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5F558615970D6B0006369D /* DCFViewController.xib */; };
+		DC5F559415970F460006369D /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = DC5F559015970F460006369D /* CHANGELOG.md */; };
+		DC5F559515970F460006369D /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F559215970F460006369D /* JSONKit.m */; };
+		DC5F559615970F460006369D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC5F559315970F460006369D /* README.md */; };
+		DC5F55B915970F5A0006369D /* MessagePackPacker.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F559A15970F5A0006369D /* MessagePackPacker.m */; };
+		DC5F55BA15970F5A0006369D /* MessagePackParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F559C15970F5A0006369D /* MessagePackParser.m */; };
+		DC5F55BB15970F5A0006369D /* objectc.c in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55AD15970F5A0006369D /* objectc.c */; };
+		DC5F55BC15970F5A0006369D /* unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55AE15970F5A0006369D /* unpack.c */; };
+		DC5F55BD15970F5A0006369D /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55AF15970F5A0006369D /* version.c */; };
+		DC5F55BE15970F5A0006369D /* vrefbuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B015970F5A0006369D /* vrefbuffer.c */; };
+		DC5F55BF15970F5A0006369D /* zone.c in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B115970F5A0006369D /* zone.c */; };
+		DC5F55C015970F5A0006369D /* NSArray+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B315970F5A0006369D /* NSArray+MessagePack.m */; };
+		DC5F55C115970F5A0006369D /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B515970F5A0006369D /* NSData+MessagePack.m */; };
+		DC5F55C215970F5A0006369D /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B715970F5A0006369D /* NSDictionary+MessagePack.m */; };
+		DC5F55C315970F5A0006369D /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DC5F55B815970F5A0006369D /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +45,41 @@
 		DC5F558315970D6B0006369D /* DCFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCFViewController.h; sourceTree = "<group>"; };
 		DC5F558415970D6B0006369D /* DCFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCFViewController.m; sourceTree = "<group>"; };
 		DC5F558715970D6B0006369D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DCFViewController.xib; sourceTree = "<group>"; };
+		DC5F559015970F460006369D /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.md; sourceTree = "<group>"; };
+		DC5F559115970F460006369D /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		DC5F559215970F460006369D /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		DC5F559315970F460006369D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DC5F559815970F5A0006369D /* MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePack.h; sourceTree = "<group>"; };
+		DC5F559915970F5A0006369D /* MessagePackPacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackPacker.h; sourceTree = "<group>"; };
+		DC5F559A15970F5A0006369D /* MessagePackPacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackPacker.m; sourceTree = "<group>"; };
+		DC5F559B15970F5A0006369D /* MessagePackParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagePackParser.h; sourceTree = "<group>"; };
+		DC5F559C15970F5A0006369D /* MessagePackParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagePackParser.m; sourceTree = "<group>"; };
+		DC5F559F15970F5A0006369D /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		DC5F55A015970F5A0006369D /* pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack.h; sourceTree = "<group>"; };
+		DC5F55A115970F5A0006369D /* pack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_define.h; sourceTree = "<group>"; };
+		DC5F55A215970F5A0006369D /* pack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pack_template.h; sourceTree = "<group>"; };
+		DC5F55A315970F5A0006369D /* sbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sbuffer.h; sourceTree = "<group>"; };
+		DC5F55A415970F5A0006369D /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		DC5F55A515970F5A0006369D /* unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack.h; sourceTree = "<group>"; };
+		DC5F55A615970F5A0006369D /* unpack_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_define.h; sourceTree = "<group>"; };
+		DC5F55A715970F5A0006369D /* unpack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unpack_template.h; sourceTree = "<group>"; };
+		DC5F55A815970F5A0006369D /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		DC5F55A915970F5A0006369D /* vrefbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrefbuffer.h; sourceTree = "<group>"; };
+		DC5F55AA15970F5A0006369D /* zbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbuffer.h; sourceTree = "<group>"; };
+		DC5F55AB15970F5A0006369D /* zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zone.h; sourceTree = "<group>"; };
+		DC5F55AC15970F5A0006369D /* msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack.h; sourceTree = "<group>"; };
+		DC5F55AD15970F5A0006369D /* objectc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objectc.c; sourceTree = "<group>"; };
+		DC5F55AE15970F5A0006369D /* unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unpack.c; sourceTree = "<group>"; };
+		DC5F55AF15970F5A0006369D /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
+		DC5F55B015970F5A0006369D /* vrefbuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vrefbuffer.c; sourceTree = "<group>"; };
+		DC5F55B115970F5A0006369D /* zone.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zone.c; sourceTree = "<group>"; };
+		DC5F55B215970F5A0006369D /* NSArray+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MessagePack.h"; sourceTree = "<group>"; };
+		DC5F55B315970F5A0006369D /* NSArray+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MessagePack.m"; sourceTree = "<group>"; };
+		DC5F55B415970F5A0006369D /* NSData+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MessagePack.h"; sourceTree = "<group>"; };
+		DC5F55B515970F5A0006369D /* NSData+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MessagePack.m"; sourceTree = "<group>"; };
+		DC5F55B615970F5A0006369D /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
+		DC5F55B715970F5A0006369D /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
+		DC5F55B815970F5A0006369D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +101,7 @@
 			children = (
 				DC5F557715970D6B0006369D /* compareFormat */,
 				DC5F557015970D6B0006369D /* Frameworks */,
+				DC5F558E15970F2C0006369D /* lib */,
 				DC5F556E15970D6B0006369D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +146,82 @@
 				DC5F557F15970D6B0006369D /* compareFormat-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC5F558E15970F2C0006369D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F559715970F5A0006369D /* msgpack */,
+				DC5F558F15970F460006369D /* jsonkit */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		DC5F558F15970F460006369D /* jsonkit */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F559015970F460006369D /* CHANGELOG.md */,
+				DC5F559115970F460006369D /* JSONKit.h */,
+				DC5F559215970F460006369D /* JSONKit.m */,
+				DC5F559315970F460006369D /* README.md */,
+			);
+			name = jsonkit;
+			path = lib/jsonkit;
+			sourceTree = "<group>";
+		};
+		DC5F559715970F5A0006369D /* msgpack */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F559815970F5A0006369D /* MessagePack.h */,
+				DC5F559915970F5A0006369D /* MessagePackPacker.h */,
+				DC5F559A15970F5A0006369D /* MessagePackPacker.m */,
+				DC5F559B15970F5A0006369D /* MessagePackParser.h */,
+				DC5F559C15970F5A0006369D /* MessagePackParser.m */,
+				DC5F559D15970F5A0006369D /* msgpack_src */,
+				DC5F55B215970F5A0006369D /* NSArray+MessagePack.h */,
+				DC5F55B315970F5A0006369D /* NSArray+MessagePack.m */,
+				DC5F55B415970F5A0006369D /* NSData+MessagePack.h */,
+				DC5F55B515970F5A0006369D /* NSData+MessagePack.m */,
+				DC5F55B615970F5A0006369D /* NSDictionary+MessagePack.h */,
+				DC5F55B715970F5A0006369D /* NSDictionary+MessagePack.m */,
+				DC5F55B815970F5A0006369D /* readme.md */,
+			);
+			name = msgpack;
+			path = lib/msgpack;
+			sourceTree = "<group>";
+		};
+		DC5F559D15970F5A0006369D /* msgpack_src */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F559E15970F5A0006369D /* msgpack */,
+				DC5F55AC15970F5A0006369D /* msgpack.h */,
+				DC5F55AD15970F5A0006369D /* objectc.c */,
+				DC5F55AE15970F5A0006369D /* unpack.c */,
+				DC5F55AF15970F5A0006369D /* version.c */,
+				DC5F55B015970F5A0006369D /* vrefbuffer.c */,
+				DC5F55B115970F5A0006369D /* zone.c */,
+			);
+			path = msgpack_src;
+			sourceTree = "<group>";
+		};
+		DC5F559E15970F5A0006369D /* msgpack */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F559F15970F5A0006369D /* object.h */,
+				DC5F55A015970F5A0006369D /* pack.h */,
+				DC5F55A115970F5A0006369D /* pack_define.h */,
+				DC5F55A215970F5A0006369D /* pack_template.h */,
+				DC5F55A315970F5A0006369D /* sbuffer.h */,
+				DC5F55A415970F5A0006369D /* sysdep.h */,
+				DC5F55A515970F5A0006369D /* unpack.h */,
+				DC5F55A615970F5A0006369D /* unpack_define.h */,
+				DC5F55A715970F5A0006369D /* unpack_template.h */,
+				DC5F55A815970F5A0006369D /* version.h */,
+				DC5F55A915970F5A0006369D /* vrefbuffer.h */,
+				DC5F55AA15970F5A0006369D /* zbuffer.h */,
+				DC5F55AB15970F5A0006369D /* zone.h */,
+			);
+			path = msgpack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +277,9 @@
 			files = (
 				DC5F557C15970D6B0006369D /* InfoPlist.strings in Resources */,
 				DC5F558815970D6B0006369D /* DCFViewController.xib in Resources */,
+				DC5F559415970F460006369D /* CHANGELOG.md in Resources */,
+				DC5F559615970F460006369D /* README.md in Resources */,
+				DC5F55C315970F5A0006369D /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +293,17 @@
 				DC5F557E15970D6B0006369D /* main.m in Sources */,
 				DC5F558215970D6B0006369D /* DCFAppDelegate.m in Sources */,
 				DC5F558515970D6B0006369D /* DCFViewController.m in Sources */,
+				DC5F559515970F460006369D /* JSONKit.m in Sources */,
+				DC5F55B915970F5A0006369D /* MessagePackPacker.m in Sources */,
+				DC5F55BA15970F5A0006369D /* MessagePackParser.m in Sources */,
+				DC5F55BB15970F5A0006369D /* objectc.c in Sources */,
+				DC5F55BC15970F5A0006369D /* unpack.c in Sources */,
+				DC5F55BD15970F5A0006369D /* version.c in Sources */,
+				DC5F55BE15970F5A0006369D /* vrefbuffer.c in Sources */,
+				DC5F55BF15970F5A0006369D /* zone.c in Sources */,
+				DC5F55C015970F5A0006369D /* NSArray+MessagePack.m in Sources */,
+				DC5F55C115970F5A0006369D /* NSData+MessagePack.m in Sources */,
+				DC5F55C215970F5A0006369D /* NSDictionary+MessagePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
