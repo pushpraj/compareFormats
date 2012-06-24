@@ -1,0 +1,3 @@
+[submodule "compareFormat/lib/msgpack"]
+	path = compareFormat/lib/msgpack
+	url = https://github.com/msgpack/msgpack-objectivec
