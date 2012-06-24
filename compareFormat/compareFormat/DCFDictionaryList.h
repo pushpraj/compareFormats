@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@interface DCFTestObject : NSObject
+
+@property (nonatomic, retain) NSString *info;
+@property (nonatomic, retain) NSDictionary *object;
+
+@end
+
 @interface DCFDictionaryList : NSObject
 
 + (NSArray *)dictionaryList;

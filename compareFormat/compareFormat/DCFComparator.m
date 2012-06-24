@@ -17,7 +17,9 @@
   
   NSArray *dictionaryObjects = [DCFDictionaryList dictionaryList];
   NSArray *comparatorList = [DCFComparingFormat allFormats];
-  for (NSDictionary *dictObject in dictionaryObjects) {
+  for (DCFTestObject *testObject in dictionaryObjects) {
+    NSDictionary *dictObject = testObject.object;
+    NSLog(@"Object Info: %@", testObject.info);
     for (DCFComparingFormat *comparator in comparatorList) {
       NSData *data = [comparator encode:dictObject];
       NSLog(@"data length: %d", [data length]);

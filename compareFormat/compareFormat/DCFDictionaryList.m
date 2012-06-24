@@ -8,14 +8,23 @@
 
 #import "DCFDictionaryList.h"
 
+@implementation DCFTestObject
+
+@synthesize object;
+@synthesize info;
+
+@end
+
 @implementation DCFDictionaryList
 
 + (NSArray *)dictionaryList {
 
   NSMutableArray *dictionaryList = [NSMutableArray array];
   
-  NSDictionary *emptyDictionary = [NSDictionary dictionary];
-  [dictionaryList addObject:emptyDictionary];
+  DCFTestObject *testObject = [[[DCFTestObject alloc] init] autorelease];
+  testObject.info = @"empty Dictionary";
+  testObject.object = [NSDictionary dictionary];
+  [dictionaryList addObject:testObject];
   
   return dictionaryList;
 }
