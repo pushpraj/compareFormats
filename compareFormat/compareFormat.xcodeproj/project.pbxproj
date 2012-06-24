@@ -29,6 +29,11 @@
 		DC5F55C115970F5A0006369D /* NSData+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B515970F5A0006369D /* NSData+MessagePack.m */; };
 		DC5F55C215970F5A0006369D /* NSDictionary+MessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55B715970F5A0006369D /* NSDictionary+MessagePack.m */; };
 		DC5F55C315970F5A0006369D /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = DC5F55B815970F5A0006369D /* readme.md */; };
+		DC5F55C7159710470006369D /* DCFComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55C6159710470006369D /* DCFComparator.m */; };
+		DC5F55CA159710F80006369D /* DCFDictionaryList.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55C9159710F80006369D /* DCFDictionaryList.m */; };
+		DC5F55CE159713310006369D /* DCFComparingFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55CD159713310006369D /* DCFComparingFormat.m */; };
+		DC5F55D11597136E0006369D /* DCFCompareWithJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55D01597136E0006369D /* DCFCompareWithJSONKit.m */; };
+		DC5F55D4159713AC0006369D /* DCFCompareWithMessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55D3159713AC0006369D /* DCFCompareWithMessagePack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +85,16 @@
 		DC5F55B615970F5A0006369D /* NSDictionary+MessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MessagePack.h"; sourceTree = "<group>"; };
 		DC5F55B715970F5A0006369D /* NSDictionary+MessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MessagePack.m"; sourceTree = "<group>"; };
 		DC5F55B815970F5A0006369D /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		DC5F55C5159710470006369D /* DCFComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFComparator.h; sourceTree = "<group>"; };
+		DC5F55C6159710470006369D /* DCFComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFComparator.m; sourceTree = "<group>"; };
+		DC5F55C8159710F80006369D /* DCFDictionaryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFDictionaryList.h; sourceTree = "<group>"; };
+		DC5F55C9159710F80006369D /* DCFDictionaryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFDictionaryList.m; sourceTree = "<group>"; };
+		DC5F55CC159713310006369D /* DCFComparingFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFComparingFormat.h; sourceTree = "<group>"; };
+		DC5F55CD159713310006369D /* DCFComparingFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFComparingFormat.m; sourceTree = "<group>"; };
+		DC5F55CF1597136E0006369D /* DCFCompareWithJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFCompareWithJSONKit.h; sourceTree = "<group>"; };
+		DC5F55D01597136E0006369D /* DCFCompareWithJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFCompareWithJSONKit.m; sourceTree = "<group>"; };
+		DC5F55D2159713AB0006369D /* DCFCompareWithMessagePack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFCompareWithMessagePack.h; sourceTree = "<group>"; };
+		DC5F55D3159713AC0006369D /* DCFCompareWithMessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFCompareWithMessagePack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,7 @@
 				DC5F557015970D6B0006369D /* Frameworks */,
 				DC5F558E15970F2C0006369D /* lib */,
 				DC5F556E15970D6B0006369D /* Products */,
+				DC5F557815970D6B0006369D /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,12 +143,15 @@
 		DC5F557715970D6B0006369D /* compareFormat */ = {
 			isa = PBXGroup;
 			children = (
+				DC5F55CB159713150006369D /* comparingFormats */,
+				DC5F55C415970FCA0006369D /* comparedObjects */,
 				DC5F558015970D6B0006369D /* DCFAppDelegate.h */,
 				DC5F558115970D6B0006369D /* DCFAppDelegate.m */,
 				DC5F558315970D6B0006369D /* DCFViewController.h */,
 				DC5F558415970D6B0006369D /* DCFViewController.m */,
 				DC5F558615970D6B0006369D /* DCFViewController.xib */,
-				DC5F557815970D6B0006369D /* Supporting Files */,
+				DC5F55C5159710470006369D /* DCFComparator.h */,
+				DC5F55C6159710470006369D /* DCFComparator.m */,
 			);
 			path = compareFormat;
 			sourceTree = "<group>";
@@ -146,6 +165,7 @@
 				DC5F557F15970D6B0006369D /* compareFormat-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = compareFormat;
 			sourceTree = "<group>";
 		};
 		DC5F558E15970F2C0006369D /* lib */ = {
@@ -222,6 +242,28 @@
 				DC5F55AB15970F5A0006369D /* zone.h */,
 			);
 			path = msgpack;
+			sourceTree = "<group>";
+		};
+		DC5F55C415970FCA0006369D /* comparedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F55C8159710F80006369D /* DCFDictionaryList.h */,
+				DC5F55C9159710F80006369D /* DCFDictionaryList.m */,
+			);
+			name = comparedObjects;
+			sourceTree = "<group>";
+		};
+		DC5F55CB159713150006369D /* comparingFormats */ = {
+			isa = PBXGroup;
+			children = (
+				DC5F55CC159713310006369D /* DCFComparingFormat.h */,
+				DC5F55CD159713310006369D /* DCFComparingFormat.m */,
+				DC5F55CF1597136E0006369D /* DCFCompareWithJSONKit.h */,
+				DC5F55D01597136E0006369D /* DCFCompareWithJSONKit.m */,
+				DC5F55D2159713AB0006369D /* DCFCompareWithMessagePack.h */,
+				DC5F55D3159713AC0006369D /* DCFCompareWithMessagePack.m */,
+			);
+			name = comparingFormats;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +346,11 @@
 				DC5F55C015970F5A0006369D /* NSArray+MessagePack.m in Sources */,
 				DC5F55C115970F5A0006369D /* NSData+MessagePack.m in Sources */,
 				DC5F55C215970F5A0006369D /* NSDictionary+MessagePack.m in Sources */,
+				DC5F55C7159710470006369D /* DCFComparator.m in Sources */,
+				DC5F55CA159710F80006369D /* DCFDictionaryList.m in Sources */,
+				DC5F55CE159713310006369D /* DCFComparingFormat.m in Sources */,
+				DC5F55D11597136E0006369D /* DCFCompareWithJSONKit.m in Sources */,
+				DC5F55D4159713AC0006369D /* DCFCompareWithMessagePack.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
