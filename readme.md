@@ -10,3 +10,6 @@ index - Data format - parsing library - link
 6.	vtd-xml		?		http://vtd-xml.sourceforge.net/					xml based
 7. 	fast-infoset	?		http://en.wikipedia.org/wiki/Fast_Infoset			xml based
 8.	exi		?		http://en.wikipedia.org/wiki/Efficient_XML_Interchange		xml based
+9. 	avro		?		http://avro.apache.org/docs/current/			
+10.	hessian		?		http://hessian.caucho.com/
+	
