@@ -1,0 +1,4 @@
+
+
+- Protobuf serialized objects are about 30% smaller then Thrift. ref: http://stackoverflow.com/questions/69316/biggest-differences-of-thrift-vs-protocol-buffers
+- .

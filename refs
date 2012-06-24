@@ -1,0 +1,12 @@
+
+compare chart		http://en.wikipedia.org/wiki/Comparison_of_data_serialization_formats
+
+obj-C protobuf:		https://github.com/booyah/protobuf-objc
+			http://code.google.com/p/metasyntactic/wiki/ProtocolBuffers
+
+smile:			http://wiki.fasterxml.com/SmileFormat
+
+interesting but independent:
+why xml- sax better than dom:	http://soa.sys-con.com/node/250512
+memory efficient xml parser:	http://vtd-xml.sourceforge.net/
+
