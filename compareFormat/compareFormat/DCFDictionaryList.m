@@ -7,6 +7,7 @@
 //
 
 #import "DCFDictionaryList.h"
+#import "JSONKit.h"
 
 @implementation DCFTestObject
 
@@ -26,6 +27,18 @@
   testObject.object = [NSDictionary dictionary];
   [dictionaryList addObject:testObject];
   
+  [dictionaryList addObject:[self obj1]];
+  
   return dictionaryList;
 }
+
++ (DCFTestObject *)obj1 {
+  DCFTestObject *testObject = [[[DCFTestObject alloc] init] autorelease];
+  testObject.info = @"contactGroup Dictionary";
+  NSString *data = @"{\"name\":\"contactGroup\",\"id\":\"b5e2007c95c6d724\",\"version\":1340186515774,\"contacts\":[{\"user\":\"test@gmail.com\",\"service\":\"gtalk\",\"contact\":\"4885@gmail.com\",\"subs\":\"from\",\"name\":null,\"vcard\":{\"FN\":\"Pushp agrawal\"}}]}";
+  testObject.object = [data objectFromJSONString];
+  return testObject;
+}
+
+
 @end
