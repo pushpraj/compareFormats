@@ -27,15 +27,24 @@
   testObject.object = [NSDictionary dictionary];
   [dictionaryList addObject:testObject];
   
-  [dictionaryList addObject:[self obj1]];
+  [dictionaryList addObject:[self contactGroupObject]];
+  [dictionaryList addObject:[self sectionObject]];
   
   return dictionaryList;
 }
 
-+ (DCFTestObject *)obj1 {
++ (DCFTestObject *)contactGroupObject {
   DCFTestObject *testObject = [[[DCFTestObject alloc] init] autorelease];
   testObject.info = @"contactGroup Dictionary";
   NSString *data = @"{\"name\":\"contactGroup\",\"id\":\"b5e2007c95c6d724\",\"version\":1340186515774,\"contacts\":[{\"user\":\"test@gmail.com\",\"service\":\"gtalk\",\"contact\":\"4885@gmail.com\",\"subs\":\"from\",\"name\":null,\"vcard\":{\"FN\":\"Pushp agrawal\"}}]}";
+  testObject.object = [data objectFromJSONString];
+  return testObject;
+}
+
++ (DCFTestObject *)sectionObject {
+  DCFTestObject *testObject = [[[DCFTestObject alloc] init] autorelease];
+  testObject.info = @"section Dictionary";
+  NSString *data = @"{\"name\":\"section\",\"id\":\"92323fa1-f8d7-4798-8408\",\"count\":0}";
   testObject.object = [data objectFromJSONString];
   return testObject;
 }
