@@ -27,5 +27,8 @@
   abort();
 }
 
+- (NSString *)info {
+  abort();
+}
 
 @end

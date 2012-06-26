@@ -20,4 +20,8 @@
   return [MessagePackPacker pack:dictionary];
 }
 
+- (NSString *)info {
+  return @"MessagePack";
+}
+
 @end

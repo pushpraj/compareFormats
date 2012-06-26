@@ -15,4 +15,6 @@
 - (id)parseData:(NSData *)data;
 - (NSData *)encode:(NSDictionary *)dictionary;
 
+- (NSString *)info;
+
 @end

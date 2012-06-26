@@ -20,4 +20,8 @@
   return [dictionary JSONData];
 }
 
+- (NSString *)info {
+  return @"JSONKit";
+}
+
 @end
