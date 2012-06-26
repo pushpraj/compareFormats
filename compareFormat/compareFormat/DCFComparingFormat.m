@@ -16,7 +16,7 @@
   NSMutableArray *array = [NSMutableArray array];
   [array addObject:[[[DCFCompareWithJSONKit alloc] init] autorelease]];
   [array addObject:[[[DCFCompareWithMessagePack alloc] init] autorelease]];
-  return nil;
+  return array;
 }
 
 - (id)parseData:(NSData *)data {

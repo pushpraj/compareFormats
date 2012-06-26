@@ -9,6 +9,7 @@
 #import "DCFAppDelegate.h"
 
 #import "DCFViewController.h"
+#import "DCFComparator.h"
 
 @implementation DCFAppDelegate
 
@@ -29,6 +30,7 @@
   self.viewController = [[[DCFViewController alloc] initWithNibName:@"DCFViewController" bundle:nil] autorelease];
   self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+  [DCFComparator compare];
     return YES;
 }
 
