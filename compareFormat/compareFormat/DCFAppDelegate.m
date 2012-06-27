@@ -10,6 +10,7 @@
 
 #import "DCFViewController.h"
 #import "DCFComparator.h"
+#import "DCFSizeComparator.h"
 
 @implementation DCFAppDelegate
 
@@ -31,6 +32,7 @@
   self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
   [DCFComparator compare];
+  [DCFSizeComparator compare];
     return YES;
 }
 

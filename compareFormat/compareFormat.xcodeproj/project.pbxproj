@@ -35,6 +35,8 @@
 		DC5F55D11597136E0006369D /* DCFCompareWithJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55D01597136E0006369D /* DCFCompareWithJSONKit.m */; };
 		DC5F55D4159713AC0006369D /* DCFCompareWithMessagePack.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5F55D3159713AC0006369D /* DCFCompareWithMessagePack.m */; };
 		DCBFE917159958DE00AA3D63 /* DCFCompareWithCompressedJSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE916159958DE00AA3D63 /* DCFCompareWithCompressedJSONKit.m */; };
+		DCBFE924159AC6E100AA3D63 /* DCFBreakDownList.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE923159AC6E100AA3D63 /* DCFBreakDownList.m */; };
+		DCBFE927159ACB6C00AA3D63 /* DCFSizeComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBFE926159ACB6B00AA3D63 /* DCFSizeComparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,10 @@
 		DC5F55D3159713AC0006369D /* DCFCompareWithMessagePack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFCompareWithMessagePack.m; sourceTree = "<group>"; };
 		DCBFE915159958DD00AA3D63 /* DCFCompareWithCompressedJSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFCompareWithCompressedJSONKit.h; sourceTree = "<group>"; };
 		DCBFE916159958DE00AA3D63 /* DCFCompareWithCompressedJSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFCompareWithCompressedJSONKit.m; sourceTree = "<group>"; };
+		DCBFE922159AC6E100AA3D63 /* DCFBreakDownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFBreakDownList.h; sourceTree = "<group>"; };
+		DCBFE923159AC6E100AA3D63 /* DCFBreakDownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFBreakDownList.m; sourceTree = "<group>"; };
+		DCBFE925159ACB6A00AA3D63 /* DCFSizeComparator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFSizeComparator.h; sourceTree = "<group>"; };
+		DCBFE926159ACB6B00AA3D63 /* DCFSizeComparator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFSizeComparator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +161,8 @@
 				DC5F558615970D6B0006369D /* DCFViewController.xib */,
 				DC5F55C5159710470006369D /* DCFComparator.h */,
 				DC5F55C6159710470006369D /* DCFComparator.m */,
+				DCBFE925159ACB6A00AA3D63 /* DCFSizeComparator.h */,
+				DCBFE926159ACB6B00AA3D63 /* DCFSizeComparator.m */,
 			);
 			path = compareFormat;
 			sourceTree = "<group>";
@@ -252,6 +260,8 @@
 			children = (
 				DC5F55C8159710F80006369D /* DCFDictionaryList.h */,
 				DC5F55C9159710F80006369D /* DCFDictionaryList.m */,
+				DCBFE922159AC6E100AA3D63 /* DCFBreakDownList.h */,
+				DCBFE923159AC6E100AA3D63 /* DCFBreakDownList.m */,
 			);
 			name = comparedObjects;
 			sourceTree = "<group>";
@@ -357,6 +367,8 @@
 				DC5F55D11597136E0006369D /* DCFCompareWithJSONKit.m in Sources */,
 				DC5F55D4159713AC0006369D /* DCFCompareWithMessagePack.m in Sources */,
 				DCBFE917159958DE00AA3D63 /* DCFCompareWithCompressedJSONKit.m in Sources */,
+				DCBFE924159AC6E100AA3D63 /* DCFBreakDownList.m in Sources */,
+				DCBFE927159ACB6C00AA3D63 /* DCFSizeComparator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
