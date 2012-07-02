@@ -10,6 +10,7 @@
 #import "DCFCompareWithJSONKit.h"
 #import "DCFCompareWithMessagePack.h"
 #import "DCFCompareWithCompressedJSONKit.h"
+#import "DCFCompareWithPList.h"
 
 @implementation DCFComparingFormat
 
@@ -18,6 +19,7 @@
   [array addObject:[[[DCFCompareWithJSONKit alloc] init] autorelease]];
   [array addObject:[[[DCFCompareWithMessagePack alloc] init] autorelease]];
   [array addObject:[[[DCFCompareWithCompressedJSONKit alloc] init] autorelease]];
+  [array addObject:[[[DCFCompareWithPList alloc] init] autorelease]];
   
   return array;
 }
