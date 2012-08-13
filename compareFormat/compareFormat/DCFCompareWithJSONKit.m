@@ -9,11 +9,18 @@
 #import "DCFCompareWithJSONKit.h"
 #import "JSONKit.h"
 
-@implementation DCFCompareWithJSONKit
+@implementation DCFCompareWithJSONKit {
+  JSONDecoder *decoder;
+}
 
+- (id)init {
+  self = [super init];
+  decoder = [[JSONDecoder alloc] init];
+  return self;
+}
 
 - (id)parseData:(NSData *)data {
-  return [data objectFromJSONData];
+  return [decoder objectWithData:data];
 }
 
 - (NSData *)encode:(NSDictionary *)dictionary {
